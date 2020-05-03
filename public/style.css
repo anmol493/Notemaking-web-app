@@ -1,0 +1,39 @@
+body{
+    background-color: blueviolet;
+}
+div{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+.decoration{
+    background-color: honeydew;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.checktick:checked+.label{
+   text-decoration: line-through;
+
+}
+.label{
+    font-size: 2rem;
+    background-color: linen;
+    width: 90%;
+    margin-bottom: 1px;
+    color: palegreen;
+}
+h1{
+    color: mintcream;
+}
+.checktick{
+    background-color: linen;
+}
+p{
+    font-size: 2rem;
+    background-color: linen;
+    margin-bottom: 1px;
+}
+/* .labe{
+    text-decoration: line-through;
+} */
